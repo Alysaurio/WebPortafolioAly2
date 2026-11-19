@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#080a0d" />
+    <meta
+      name="description"
+      content="MODULAR ARCHIVE — archivo interactivo de videojuegos. Un mecanismo modular de cristal oscuro para explorar seis proyectos."
+    />
+    <meta property="og:title" content="MODULAR ARCHIVE" />
+    <meta
+      property="og:description"
+      content="Archivo interactivo de videojuegos. Drag to rotate. Explore the archive."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>MODULAR ARCHIVE</title>
+    <style>
+      html,
+      body,
+      #root {
+        margin: 0;
+        min-height: 100%;
+        background: #080a0d;
+      }
+      #boot {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background: #080a0d;
+        color: #8d99a6;
+        font: 11px/1.4 ui-monospace, monospace;
+        letter-spacing: 0.28em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"><div id="boot">CALIBRATING OPTICS</div></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
